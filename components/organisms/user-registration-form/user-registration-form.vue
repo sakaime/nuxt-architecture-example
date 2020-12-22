@@ -79,7 +79,7 @@ export default class UserRegistrationForm extends Vue {
     onClick: this.resetForm,
   }
 
-  private resetForm() {
+  private resetForm(): void {
     this.$set(this.emailFieldData.input, 'value', '')
     this.$set(this.passwordFieldData.input, 'value', '')
   }
