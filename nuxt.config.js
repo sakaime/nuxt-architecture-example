@@ -14,7 +14,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [{ src: '@/plugins/repository' }],
+  plugins: [{ src: '@/plugins/repository-factory' }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: false,
