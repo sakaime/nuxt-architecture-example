@@ -1,4 +1,4 @@
-import { Repositories } from '@/plugins/repository'
+import { Repositories } from '~/plugins/repository-factory'
 
 declare module 'vue/types/vue' {
   interface Vue {

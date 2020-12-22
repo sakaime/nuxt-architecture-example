@@ -1,5 +1,5 @@
 import { Module, VuexModule, Mutation, Action } from 'vuex-module-decorators'
-import { $repositories } from '@/plugins/repository'
+import { $repositories } from '~/plugins/repository-factory'
 
 type User = {
   id?: number
