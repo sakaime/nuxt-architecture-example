@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import { UsersStore } from '~/store'
+import { UserStore } from '~/store'
 
 type User = {
   id?: number
@@ -17,9 +17,9 @@ type User = {
 @Component
 export default class UserRegistration extends Vue {
   private get users(): User[] {
-    return UsersStore.getUsers
+    return UserStore.getUsers
   }
 
-  private register = async (User: User) => await UsersStore.createUser(User)
+  private register = async (User: User) => await UserStore.createUser(User)
 }
 </script>
