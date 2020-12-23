@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-app.post('/api/v1/post', (_, res) =>
+app.post('/api/v1/users/create', (_, res) =>
   res.json(require('./mocks/users/test.json'))
 )
 
