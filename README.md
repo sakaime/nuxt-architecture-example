@@ -1,4 +1,4 @@
-# nuxt-architecture-sample
+# nuxt-architecture-example
 
 ## Build Setup
 

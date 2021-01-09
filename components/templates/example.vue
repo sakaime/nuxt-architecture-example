@@ -11,5 +11,5 @@ import UserRegistrationModal from '~/components/organisms/user-registration-moda
     UserRegistrationModal,
   },
 })
-export default class SampleTemplate extends Vue {}
+export default class ExampleTemplate extends Vue {}
 </script>

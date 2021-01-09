@@ -1,16 +1,16 @@
 <template>
   <div class="container">
-    <sample-template></sample-template>
+    <example-template></example-template>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import SampleTemplate from '~/components/templates/sample.vue'
+import ExampleTemplate from '~/components/templates/example.vue'
 
 @Component({
   components: {
-    SampleTemplate,
+    ExampleTemplate,
   },
 })
 export default class IndexPage extends Vue {}
